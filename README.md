@@ -1,4 +1,9 @@
 # scheduler-card <!-- omit in TOC -->
+
+# CODE SOURCE: https://raw.githubusercontent.com/tonyroberts/scheduler-card/main/README.md
+
+Only added for testing purposes..
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)  
 
 - [Introduction](#introduction)
