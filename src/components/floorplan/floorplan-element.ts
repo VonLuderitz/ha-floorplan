@@ -1396,6 +1396,8 @@ export class FloorplanElement extends LitElement {
 
     const changedEntityIds = this.getChangedEntities(isInitialLoad);
 
+    console.log('DEBUG: changedEntityIds', changedEntityIds);
+
     for (const variableName of Object.keys(this.variables)) {
       changedEntityIds.add(variableName); // always assume variables need updating
     }
@@ -1744,6 +1746,7 @@ export class FloorplanElement extends LitElement {
     svgElementInfo?: FloorplanSvgElementInfo,
     ruleInfo?: FloorplanRuleInfo
   ): void {
+    console.log("DEBUG: handleActions", entityId, actionConfigs, ruleInfo, svgElementInfo);
     const allActionConfigs = this.getActionConfigs(actionConfigs);
 
     for (const actionConfig of allActionConfigs) {
